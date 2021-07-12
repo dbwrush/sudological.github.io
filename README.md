@@ -1,2 +1,2 @@
-# sudological.github.io
+# sudologic.net is under construction
  
