@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo&display=swap');
+h2{
+    font-family: 'Exo', sans-serif;
+    color: white;
+    font-size: clamp(8px,4vw,26px);
+}
+p{
+    font-family: 'Exo', sans-serif;
+    color: #ffffff;
+    font-size: clamp(6px,4vw,18px);
+}
+button{
+    outline: none;
+    border: none;
+    background: black;
+    font-family: 'Exo', sans-serif;
+    color: white;
+    font-size: clamp(6px,4vw,18px);
+    cursor: pointer;
+    padding: 10px;
+    box-shadow: white 0 0 5px 1px;
+}
+#github-button{
+    outline: none;
+    border: none;
+    background: black;
+    font-family: 'Exo', sans-serif;
+    color: white;
+    font-size: clamp(6px,4vw,18px);
+    cursor: pointer;
+    padding: 10px;
+    text-decoration: none;
+    box-shadow: white 0 0 5px 1px;
+}
+#github-button:visited{
+    outline: none;
+    border: none;
+    background: black;
+    font-family: 'Exo', sans-serif;
+    color: white;
+    font-size: clamp(6px,4vw,18px);
+    cursor: pointer;
+    padding: 10px;
+    text-decoration: none;
+    box-shadow: white 0 0 5px 1px;
+}
+#contact-button{
+    outline: none;
+    border: none;
+    background: black;
+    font-family: 'Exo', sans-serif;
+    color: white;
+    font-size: clamp(6px,4vw,18px);
+    cursor: pointer;
+    padding: 10px;
+    text-decoration: none;
+    box-shadow: white 0 0 5px 1px;
+}
+#contact-button:visited{
+    outline: none;
+    border: none;
+    background: black;
+    font-family: 'Exo', sans-serif;
+    color: white;
+    font-size: clamp(6px,4vw,18px);
+    cursor: pointer;
+    padding: 10px;
+    text-decoration: none;
+    box-shadow: white 0 0 5px 1px;
+}
+h3{
+    font-family: 'Exo', sans-serif;
+    color: white;
+    font-size: clamp(16px,4vw,32px);
+    font-weight: bold;
+}
+section{
+    height: 100vh;
+    padding: 10%;
+    border-top: double white;
+    border-bottom: double white;
+}
+#games{
+    height: auto;
+    background: rgba(0, 0, 0, 0.9);
+    margin-bottom: 50vh;
+}
+#blog{
+    height: auto;
+    margin-bottom: 50vh;
+    background: rgba(0, 0, 0, 0.9);
+}
+#contact{
+    background: url('https://images.squarespace-cdn.com/content/v1/60e8bdacd9bc981eafa4b4a6/5efa7625-d32c-4513-8265-2f6f92b22ba1/2021-07-10_08.25.02.png');
+    background-size: 100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 75vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#container{
+    background: rgba(0, 0, 0, 0.8);
+    padding: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction:column;
+    text-align: center;
+}
