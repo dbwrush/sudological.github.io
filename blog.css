@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo&display=swap');
+h2{
+    font-family: 'Exo', sans-serif;
+    color: white;
+    font-size: clamp(8px,4vw,26px);
+    margin-bottom: 0px;
+}
+p{
+    font-family: 'Exo', sans-serif;
+    color: #ffffff;
+    font-size: clamp(6px,4vw,18px);
+}
+.post{
+    background: rgba(0, 0, 0, 0.9);
+    padding: 5%;
+    border-top: double white;
+    border-bottom: double white;
+    margin: 100px 0px;
+}
+h5{
+    font-family: 'Exo', sans-serif;
+    color: #ffffff;
+    font-size: clamp(12px,8vw,36px);
+    margin: 100px 50px 0px 50px;
+}
+.date{
+    font-family: 'Exo', sans-serif;
+    color: #ffffff;
+    font-size: clamp(6px,2vw,18px);
+    margin: 10px 0px 0px 10px;
+    font-weight: normal;
+    float: right;
+}
