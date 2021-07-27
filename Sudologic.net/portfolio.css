@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo&display=swap');
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#container{
+    background: rgba(0, 0, 0, 0.9);
+    padding: 5%;
+    box-shadow: white 0 0 10px 5px;
+    margin: 100px 0px;
+    display: flex;
+    max-width: 80vw;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+h5{
+    font-family: 'Exo', sans-serif;
+    color: #ffffff;
+    font-size: clamp(12px,8vw,36px);
+    margin: 20px;
+    text-decoration: none;
+}
+p{
+    font-family: 'Exo', sans-serif;
+    color: #ffffff;
+    font-size: clamp(6px,4vw,18px);
+    transform: translateY(-50%);
+}
+.button{
+    outline: none;
+    border: none;
+    background: black;
+    font-family: 'Exo', sans-serif;
+    color: white;
+    font-size: clamp(6px,4vw,18px);
+    cursor: pointer;
+    padding: 10px;
+    text-decoration: none;
+    box-shadow: white 0 0 5px 1px;
+}
+.button:visited{
+    outline: none;
+    border: none;
+    background: black;
+    font-family: 'Exo', sans-serif;
+    color: white;
+    font-size: clamp(6px,4vw,18px);
+    cursor: pointer;
+    padding: 10px;
+    text-decoration: none;
+    box-shadow: white 0 0 5px 1px;
+}
