@@ -7,6 +7,9 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://sudologic.net" # the base hostname & protocol for your site
 author: sudologic
 
+plugins:
+   - jekyll-sitemap
+
 # homepage tiles
 tiles-source: pages # accepts "posts" or "pages"
 tiles-count: 6
