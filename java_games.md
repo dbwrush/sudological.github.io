@@ -12,4 +12,4 @@ After watching this series, I created my first couple Java games. The first was 
 <br><br>
 That parallax scrolling technique was re-used on my second game, which I simply titled <i>SpaceShooter</i>, where the player shoots enemy spacecraft against a scrolling background of stars. In this game I experimented with animated sprites and scaling difficulty. This game has a wider roster of enemies, some of which have stronger weapons or armor, others might have the ability to shoot at an angle. You can try <i>SpaceShooter</i> by downloading it from <a href="https://github.com/sudological/SpaceShooter/releases">this GitHub repository.</a>
 <br>
-<img src="assets/images/ssScreenshot2.png">
+<center><img src="assets/images/ssScreenshot2.png"></center>
