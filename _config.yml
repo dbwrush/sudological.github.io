@@ -1,0 +1,38 @@
+# site settings
+title: sudologic.net
+subtitle:
+email: me@sudologic.net
+description: Somebody makes things and puts them on the internet, mostly games and mods. Sometimes other things?
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://sudologic.net" # the base hostname & protocol for your site
+author: sudologic
+
+# homepage tiles
+tiles-source: pages # accepts "posts" or "pages"
+tiles-count: 6
+
+# social settings (key must match name of font awesome icon)
+# see https://fontawesome.com/icons?d=gallery&p=2&s=brands
+# Icons are not shown if value is empty
+# You need to restart jekyll for changes to have an effect
+socials:
+  GitHub: https://github.com/sudological
+  YouTube-play: https://www.youtube.com/channel/UCVgoA5uu691qd0_A63EC_4g
+  Google-Plus: 
+  Instagram:
+  LinkedIn: 
+  Twitter: 
+  Facebook:
+  Slack:
+
+# build settings
+markdown: kramdown
+
+sass:
+  style: compressed
+
+exclude:
+- "*.gemspec"
+- LICENSE.md
+- CONTRIBUTING.md
+- README.md 
