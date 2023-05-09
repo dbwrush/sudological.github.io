@@ -1,8 +1,8 @@
 # site settings
 title: sudologic.net
-subtitle:
+subtitle: One of the websites of all time.
 email: me@sudologic.net
-description: Just another nerd on the internet.
+description: Prorgrammer, gamer, speedrunner, streamer, average nerd.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://sudologic.net" # the base hostname & protocol for your site
 author: sudologic
