@@ -2,7 +2,6 @@
 layout: post
 title: Advancement Command has dropped.
 description: My first commissioned plugin!
-image: assets/images/pic.jpg
 ---
 New Minecraft plugin! 
 This plugin allows you to run console commands when a group of advancements are made.
