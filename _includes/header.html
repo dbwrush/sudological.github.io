@@ -9,6 +9,11 @@
 	</nav>
 </header>
 
+<!-- Twitch Popup -->
+<div id="twitch-popup" class="hidden">
+  <div id="twitch-embed"></div>
+</div>
+
 <!-- Menu -->
 <nav id="menu">
 	<ul class="links">
@@ -26,3 +31,24 @@
 		<li><a href="https://mangomc.net">MangoMC.net</a></li>
 	</ul>
 </nav>
+	
+<script>
+$(document).ready(function() {
+  setInterval(function() {
+    $.getJSON("https://api.twitch.tv/kraken/streams/sudological?client_id=YOUR_TWITCH_CLIENT_ID", function(data) {
+      if (data.stream !== null) {
+        var embed = new Twitch.Embed("twitch-embed", {
+          channel: "sudological",
+          layout: "video",
+          autoplay: false,
+          muted: false
+        });
+        $("#twitch-popup").removeClass("hidden");
+      } else {
+        $("#twitch-popup").addClass("hidden");
+      }
+    });
+  }, 30000);
+});
+</script>
+
