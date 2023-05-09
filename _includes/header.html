@@ -1,14 +1,14 @@
 <!-- Wrapper -->
 <div id="wrapper">
-
 <!-- Header -->
 <header id="header"{% if page.layout == "landing" %} class="alt style2"{% endif %}{% if page.layout == "home" %} class="alt"{% endif %}>
 	<a href="{{ "" | absolute_url }}/" class="logo"><strong>{{ site.title }}</strong> <span>{{ site.subtitle }}</span></a>
 	<nav>
 		<a href="#menu">Menu</a>
 	</nav>
+  <!-- Twitch Banner -->
+  <div id="twitch-banner"></div>
 </header>
-
 <!-- Menu -->
 <nav id="menu">
 	<ul class="links">
@@ -26,3 +26,39 @@
 		<li><a href="https://mangomc.net">MangoMC.net</a></li>
 	</ul>
 </nav>
+<!-- Script to check Twitch status and show/hide banner -->
+<script>
+function checkTwitchStatus() {
+  const channelName = "sudological";
+  const twitchApiUrl = `https://api.twitch.tv/helix/streams?user_login=${channelName}`;
+  const twitchClientId = "0qjr6rkb51ruh43lrkrq99uo7g0l9u";
+
+  fetch(twitchApiUrl, {
+    headers: {
+      "Client-ID": twitchClientId
+    }
+  })
+    .then(response => response.json())
+    .then(data => {
+      if (data.data.length > 0) {
+        // witch channel is live, so show the banner.
+        const bannerElement = document.getElementById("twitch-banner");
+        bannerElement.innerHTML = `
+          <a href="https://twitch.tv/${channelName}">
+            <p>Watch my stream now!</p>
+          </a>
+        `;
+      } else {
+        // Twitch channel is offline, so hide the banner.
+        const bannerElement = document.getElementById("twitch-banner");
+        bannerElement.innerHTML = "";
+      }
+    })
+    .catch(error => {
+      console.error(error);
+    });
+}
+
+setInterval(checkTwitchStatus, 5 * 60 * 1000); // Check every 5 minutes
+</script>
+</div>
