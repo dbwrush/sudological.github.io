@@ -11,41 +11,8 @@
 
 <!-- Twitch Popup -->
 <div id="twitch-popup" class="hidden">
-  <div id="twitch-embed">
-    <iframe
-      src="https://player.twitch.tv/?channel=sudological&parent=yourwebsite.com"
-      frameborder="0"
-      scrolling="no"
-      allowfullscreen="true">
-    </iframe>
-  </div>
+  <div id="twitch-embed"></div>
 </div>
-
-<style>
-  #twitch-popup {
-    position: fixed;
-    z-index: 9999;
-    bottom: 20px;
-    right: 20px;
-    width: 400px;
-    height: 400px;
-    background-color: #1f1f1f;
-    border-radius: 8px;
-    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
-    overflow: hidden;
-    transition: opacity 0.2s ease-in-out;
-  }
-
-  #twitch-popup.hidden {
-    opacity: 0;
-  }
-
-  #twitch-embed {
-    width: 100%;
-    height: 100%;
-  }
-</style>
-
 
 <!-- Menu -->
 <nav id="menu">
