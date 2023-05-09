@@ -13,7 +13,7 @@
 <div id="twitch-popup" class="hidden">
   <div id="twitch-embed">
     <iframe
-      src="https://player.twitch.tv/?channel=sudological&parent=sudologic.net"
+      src="https://player.twitch.tv/?channel=sudological&parent=yourwebsite.com"
       frameborder="0"
       scrolling="no"
       allowfullscreen="true">
@@ -68,7 +68,7 @@
 <script>
 $(document).ready(function() {
   setInterval(function() {
-    $.getJSON("https://api.twitch.tv/kraken/streams/sudological?client_id=kz09v6p61djaj22pkw13c813ebdubr", function(data) {
+    $.getJSON("https://api.twitch.tv/kraken/streams/sudological?client_id=YOUR_TWITCH_CLIENT_ID", function(data) {
       if (data.stream !== null) {
         var embed = new Twitch.Embed("twitch-embed", {
           channel: "sudological",
