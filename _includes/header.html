@@ -7,13 +7,7 @@
 	<nav>
 		<a href="#menu">Menu</a>
 	</nav>
-	<br>
 </header>
-<nav>
-	<a href="https://sudologic.net/live">Twitch</a>
-	<a href="https://sudologic.net/discord">Discord</a>
-	<a href="https://youtube.com/@sudologic">YouTube</a>
-</nav>
 
 <!-- Menu -->
 <nav id="menu">
@@ -29,6 +23,11 @@
 		        <li><a href="{{ page.url | absolute_url }}">{{ page.title }}</a></li>
 		    {% endif %}
 		{% endfor %}
-		<li><a href="https://mangomc.net">MangoMC.net</a></li>
+		<li>
+			<a href="https://mangomc.net">MangoMC.net</a>
+			<a href="https://sudologic.net/live">Twitch</a>
+			<a href="https://sudologic.net/discord">Discord</a>
+			<a href="https://youtube.com/@sudologic">YouTube</a>
+		</li>
 	</ul>
 </nav>
