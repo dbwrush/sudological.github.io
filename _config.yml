@@ -2,7 +2,7 @@
 title: sudologic.net
 subtitle:
 email: me@sudologic.net
-description: Somebody who makes things and puts them on the internet, mostly games and mods. Sometimes other things?
+description: Just another nerd on the internet.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://sudologic.net" # the base hostname & protocol for your site
 author: sudologic
@@ -21,12 +21,8 @@ tiles-count: 6
 socials:
   GitHub: https://github.com/sudological
   YouTube-play: https://www.youtube.com/channel/UCVgoA5uu691qd0_A63EC_4g
-  Reddit: https://www.reddit.com/user/bluegreensemicircle
-  Instagram:
-  LinkedIn: 
-  Twitter: 
-  Facebook:
-  Slack:
+  Discord: https://sudologic.net/discord
+  Twitch: https://sudologic.net/live
 
 # build settings
 markdown: kramdown
