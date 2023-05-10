@@ -4,10 +4,24 @@
 <!-- Header -->
 <header id="header"{% if page.layout == "landing" %} class="alt style2"{% endif %}{% if page.layout == "home" %} class="alt"{% endif %}>
 	<a href="{{ "" | absolute_url }}/" class="logo"><strong>{{ site.title }}</strong> <span>{{ site.subtitle }}</span></a>
-	<nav>
-		<a href="#menu">Menu</a>
+	<nav id="main-nav" class="main-nav-items">
+		<ul class="links">
+			<li><a href="#menu">Menu</a></li>
+		</ul>
 	</nav>
 </header>
+
+<style>
+	.main-nav-items li:not(:first-child) {
+	  display: none;
+	}
+
+	@media screen and (min-width: 768px) {
+	  .main-nav-items li:not(:first-child) {
+		display: block;
+	  }
+	}
+</style>
 
 <!-- Menu -->
 <nav id="menu">
