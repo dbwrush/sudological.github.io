@@ -2,7 +2,7 @@
 layout: post
 title: MangoMC.net
 description: My public Minecraft server
-image: assets/images/lobby-mango.jpg
+image: assets/images/lobby-mango.png
 nav-menu: true
 ---
 In 2022 I launched a Minecraft server called MangoMC, using some previous work by Math0424 and Hallflower as a base. 
