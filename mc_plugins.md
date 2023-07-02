@@ -13,4 +13,4 @@ The next plugin I developed is called <i>Ledges</i>, it isn't in a state where I
 <br><br>
 ChallengeMode is a collection of 'twists' that can be added to a Minecraft game and configured to create challenges for players. I will expand the plugin as I go, but thus far it includes one mode called 'SupplyDrop' in which chests filled with useful gear are randomly placed into a shrinking world as the players fight to survive. 
 
-Today, I continue to create new plugins and use these on my Minecraft server, <a href="https://mangomc.net"MangoMC</a>.
+Today, I continue to create new plugins and use these on my Minecraft server, <a href="https://mangomc.net">MangoMC</a>.
