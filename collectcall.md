@@ -2,7 +2,7 @@
 layout: post
 title: Collect Call
 description: A 2D puzzle platformer
-image: assets/images/cc_hero.png
+image: assets/images/cc_hero.jpg
 nav-menu: true
 ---
 Collect Call is a puzzle platformer game. You might work through the puzzles on your own, or you might talk to other characters to piece together a mystery.
