@@ -12,7 +12,7 @@ The game will hopefully be published to Steam soon! Once the store page is live,
 <br>
 <center><b>Features</b></center><br>
 The game gradually introduces new mechanics so you learn at a comfortable pace but still get the fun of solving puzzles on your own. Puzzles are made of simple components, like levers, buttons, physics objects, bridges, and others.
-<br><center><img src="assets/images/cc_screenshot.jpg"></center>
+<br><img src="assets/images/cc_screenshot.jpg">
 <br>
 Steam Deck
 <br>
@@ -20,6 +20,8 @@ I made the game with the Steam Deck in mind, as it had conviniently released jus
 <br><center><b>Custom Levels</b></center>
 <br>
 I made the game's levels using <a href="https://mapeditor.org">Tiled</a>, a free and open-source map editor made by Thorbjørn Lindeijer. It was also used to make games like <i>Stardew Valley</i> and <i>Shovel Knight</i>
+<br>
+<img src="assets/images/cc_tiled.jpg">
 <br>
 With a bit of effort, you also can make levels that can be played in Collect Call! You can even use your own custom assets to make entirely new campaigns. Upon release, Collect Call will integrate with the Steam Workshop to download custom levels, but you can also install them manually!
 Collect Call creates a folder in the install directory called "Custom". Folders containing custom levels should go in here, then Collect Call can scan that folder to find them. The first level should always have a name starting with "cc_". 
