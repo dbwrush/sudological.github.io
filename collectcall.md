@@ -26,4 +26,6 @@ I made the game's levels using <a href="https://mapeditor.org">Tiled</a>, a free
 With a bit of effort, you also can make levels that can be played in Collect Call! You can even use your own custom assets to make entirely new campaigns. Upon release, Collect Call will integrate with the Steam Workshop to download custom levels, but you can also install them manually!
 Collect Call creates a folder in the install directory called "Custom". Folders containing custom levels should go in here, then Collect Call can scan that folder to find them. The first level should always have a name starting with "cc_". 
 
+A kit full of assets to make maps is on <a href="https://github.com/sudological/CollectCallMappingKit">GitHub</a>
+
 <center><b><a href="https://sudologic.net/discord">Join the Discord!</a></b></center>
