@@ -6,13 +6,13 @@ image: assets/images/cc_hero.png
 nav-menu: true
 ---
 Collect Call is a puzzle platformer game. You might work through the puzzles on your own, or you might talk to other characters to piece together a mystery.
-<center><div class="container"><iframe class="responsive-iframe" src="assets/videos/cc_trailer.png"></iframe></div></center>
+<center><div class="container"><iframe class="responsive-iframe" src="assets/videos/cc_trailer.mp4"></iframe></div></center>
 <br>
 The game will hopefully be published to Steam soon! Once the store page is live, I'll update this page with a link to it.
 <br>
 <center><b>Features</b></center><br>
 The game gradually introduces new mechanics so you learn at a comfortable pace but still get the fun of solving puzzles on your own. Puzzles are made of simple components, like levers, buttons, physics objects, bridges, and others.
-<br><center><img src="assets/images/cc_gameplay.gif"></center>
+<br><center><img src="assets/images/cc_screenshot.jpg"></center>
 <br>
 Steam Deck
 <br>
