@@ -21,7 +21,7 @@ I made the game with the Steam Deck in mind, as it had conviniently released jus
 <br>
 I made the game's levels using <a href="https://mapeditor.org">Tiled</a>, a free and open-source map editor made by Thorbjørn Lindeijer. It was also used to make games like <i>Stardew Valley</i> and <i>Shovel Knight</i>
 <br>
-<img src="assets/images/cc_tiled.jpg">
+<img src="assets/images/cc_tiled.png">
 <br>
 With a bit of effort, you also can make levels that can be played in Collect Call! You can even use your own custom assets to make entirely new campaigns. Upon release, Collect Call will integrate with the Steam Workshop to download custom levels, but you can also install them manually!
 Collect Call creates a folder in the install directory called "Custom". Folders containing custom levels should go in here, then Collect Call can scan that folder to find them. The first level should always have a name starting with "cc_". 
