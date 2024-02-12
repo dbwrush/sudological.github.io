@@ -1,7 +1,7 @@
 # site settings
 title: sudologic.net
 subtitle: 
-email: me@sudologic.net
+email: dbwrush@dbwrush.com
 description: Programmer, gamer, speedrunner, streamer, average nerd.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://sudologic.net" # the base hostname & protocol for your site
@@ -19,7 +19,7 @@ tiles-count: 6
 # Icons are not shown if value is empty
 # You need to restart jekyll for changes to have an effect
 socials:
-  GitHub: https://github.com/sudological
+  GitHub: https://github.com/dbwrush
   YouTube-play: https://www.youtube.com/channel/UCVgoA5uu691qd0_A63EC_4g
   Twitch: https://sudologic.net/live
 
