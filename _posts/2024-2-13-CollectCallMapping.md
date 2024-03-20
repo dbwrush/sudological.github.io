@@ -10,7 +10,7 @@ You can download a kit full of mapping assets <a href="https://codeload.github.c
 
 If you're interested, here's all the details for making custom levels.
 
-Currently, _Collect Call_ isn't available to the public, but it should be on Steam in about 3 months! If you'd like early access, message me on Discord or by email.
+Currently, _Collect Call_ isn't available to the public, but it should be on Steam in May! If you'd like early access, message me on Discord or by email. For now, <a href="https://store.steampowered.com/app/2312270/Collect_Call/">here's the Steam store page</a>.
 The below is copied from the ReadMe for the mapping kit.
 
 # Collect Call Mapmaking Kit
