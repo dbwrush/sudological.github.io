@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Collect Call is Steam Deck Verified!
-description: 
+description: It all comes full circle
 image: assets/images/cc_verified.png
 ---
 ##I just got the email this afternoon, Valve has finished testing Collect Call's compatibility for the Steam Deck!
